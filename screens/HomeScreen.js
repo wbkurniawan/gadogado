@@ -119,7 +119,7 @@ export default class HomeScreen extends React.Component {
                               </Text>
                               <View style={{flex: 1, flexDirection: 'row'}}>
                                   <View style={{ flex: 1, alignItems:'center'}}>
-                                      <Text style={{fontWeight:'bold'}}>{item.price} EUR</Text>
+                                      <Text style={{fontWeight:'bold'}}>{item.price} €</Text>
                                   </View>
                                   <View style={{ flex: 1, alignItems:'center'}}>
                                       <Text style={{fontWeight:'bold'}}>{item.pickup_date}</Text>
